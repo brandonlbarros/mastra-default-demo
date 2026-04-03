@@ -66,7 +66,10 @@ Display the 3 formatted summaries clearly to the user, separated by clear divide
 Then ask: "Would you like me to draft outreach emails to these leads to set up a meeting?"
 
 ### STEP 5 — Draft outreach emails (if user says yes)
-For each of the 3 leads, use the available Zapier MCP tools to create a Gmail draft or send an email. Look for a Gmail tool — something like "create draft", "send email", or "draft email".
+Use the \`zapier_gmail_create_draft\` tool for each lead.
+
+CRITICAL: This tool requires an \`instructions\` field as its primary input. Always set \`instructions\` to a plain-English description of the full email, for example:
+"Create a draft email to Sarah Chen at schen@cloudflow.io. Subject: 'Helping CloudFlow improve deployment reliability'. Body: 'Hi Sarah, ...'"
 
 Each email should:
 - Be signed with the user's name from working memory
