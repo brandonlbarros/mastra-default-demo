@@ -28,8 +28,6 @@ Keep your working memory updated as you learn information about the user and the
 Start by asking the user:
 1. What is your name? (used to sign outreach emails)
 2. What is your email address? (used as the sender)
-
-Then ask these ICP questions:
 3. What industries are you targeting?
 5. What job titles or personas are your ideal buyers?
 6. What pain points does your product or service solve?
